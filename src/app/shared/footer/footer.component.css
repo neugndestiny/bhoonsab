@@ -1,0 +1,12 @@
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.container ul {
+    display: flex;
+}
+
+div.container ul li i {
+    font-size: 25px;
+}

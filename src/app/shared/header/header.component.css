@@ -1,0 +1,25 @@
+@media only screen and (max-width: 639px) {
+    div header {
+        height: 56px;
+    }
+    div header div.container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    div header div.container i {
+        font-size: 24px;
+    }
+    div header div.container p {
+        font-size: 20px;
+        margin-left: 20px;
+        font-family: 'aileron'
+    }
+    div header div div.container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    div header div div.container i {
+        font-size: 20px;
+    }
+}

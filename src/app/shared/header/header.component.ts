@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  menus = ['หน้าหลัก', 'สินค้า', 'โปรโมชั่น', 'ติดต่อเรา']
+
   constructor() { }
 
   ngOnInit() {

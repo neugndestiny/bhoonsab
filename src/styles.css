@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: quicksand;
+    src: url(assets/font/Quicksand-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(assets/font/Aileron-SemiBold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: headingPro;
+    src: url(assets/font/Heading-Pro-Book-trial.ttf) format("opentype");
+}
+
+/* @media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D;
+    }
+} */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'quicksand';
+} */
+
+body {
+    font-size: 24px;
+}

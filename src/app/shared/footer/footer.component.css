@@ -1,12 +1,20 @@
-div.container {
-    display: flex;
-    justify-content: center;
-}
-
-div.container ul {
-    display: flex;
-}
-
 div.container ul li i {
     font-size: 25px;
+}
+
+div p, div h1 {
+    font-family: 'sbModern'
+}
+
+div h1 {
+    font-size: 25px;
+}
+
+div div {
+    display: flex;
+}
+
+div.container {
+    background: #752a09;
+    color: white;
 }

@@ -1,0 +1,29 @@
+[{
+    "name": "อิฐมอญทำมือ",
+    "id": "1",
+    "price": 13,
+    "amount": 100,
+    "purpose": "ตกแต่ง",
+    "imageUrl": "assets/images/with13.jpg"
+},{
+    "name": "อิฐมอญทำเครื่อง",
+    "id": "2",
+    "price": 16,
+    "amount": 100,
+    "purpose": "ตกแต่ง",
+    "imageUrl": "assets/images/with15.jpg"
+},{
+    "name": "หินทรายขาวลาย",
+    "id": "3",
+    "price": 13,
+    "amount": 100,
+    "purpose": "ตกแต่ง",
+    "imageUrl": "assets/images/with19.jpg"
+},{
+    "name": "หินทรายเหลืองลาย",
+    "id": "4",
+    "price": 13,
+    "amount": 100,
+    "purpose": "ตกแต่ง",
+    "imageUrl": "assets/images/with17.jpg"
+}]

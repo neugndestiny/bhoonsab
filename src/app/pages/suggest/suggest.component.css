@@ -1,0 +1,13 @@
+div.container h1 {
+    font-family: 'sbModern';
+    font-size: 25px;
+}
+
+div div div p {
+    font-family: 'sbModern';
+    font-size: 20px;
+}
+
+div div div {
+    text-align: center;
+}

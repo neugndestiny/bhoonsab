@@ -15,6 +15,11 @@
     src: url(assets/font/Heading-Pro-Book-trial.ttf) format("opentype");
 }
 
+@font-face {
+    font-family: sbModern;
+    src: url(assets/font/SB-Modern.ttf) format("opentype");
+}
+
 /* @media only screen and (max-width: 400px) {
     body {
         background-color: #F09A9D;

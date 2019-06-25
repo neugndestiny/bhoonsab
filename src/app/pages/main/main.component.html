@@ -1,5 +1,10 @@
-<div>
-  <img src="../../../assets/images/cover.jpg" alt="">
+<app-header (sendToggleMenu)="receivedToggle($event)"></app-header>
+
+<div *ngIf="!showSubMenu">
+  <img src="../../../assets/images/cover.jpg">
+  <app-suggest></app-suggest>
+
+  <app-footer></app-footer>
 </div>
 
-<app-suggest></app-suggest>
+<div style="height: 756px; background: beige" *ngIf="showSubMenu"></div>

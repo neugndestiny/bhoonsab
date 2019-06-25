@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  showSubMenu: boolean = false
+
   constructor(
   ) { }
 
   ngOnInit() {
+  }
+
+  receivedToggle(event) {
+    this.showSubMenu = event
   }
 
 }

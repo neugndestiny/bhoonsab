@@ -1,10 +1,44 @@
 <app-header (sendToggleMenu)="receivedToggle($event)"></app-header>
 
-<div *ngIf="!showSubMenu">
-  <img src="../../../assets/images/cover.jpg">
+<div *ngIf="!showSubMenu" class="slide-imgs">
+  <img class="slide-img" src="../../../assets/images/cover.jpg">
+  <img class="slide-img" src="../../../assets/images/cover.jpg">
+  <div class="container">
+    <div class="container left">
+      <i class="fas fa-angle-left left"></i>
+    </div>
+    <div class="container dot mt-1">
+      <ul>
+        <li class="ml-1 mr-1">
+          <i class="fas fa-circle"></i>
+        </li>
+        <li class="ml-1 mr-1">
+          <i class="fas fa-circle"></i>
+        </li>
+        <li class="ml-1 mr-1">
+          <i class="fas fa-circle"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="container right">
+      <i class="fas fa-angle-right right"></i>
+    </div>
+  </div>
   <app-suggest></app-suggest>
 
   <app-footer></app-footer>
 </div>
 
-<div style="height: 756px; background: beige" *ngIf="showSubMenu"></div>
+<div class="subMenu" *ngIf="showSubMenu">
+  <div class="container pl-3">
+    <div class="row pt-4">
+      <div class="col-md-12 pb-3">หมวดสินค้า</div>
+    </div>
+    <div class="row pt-3 pb-3">
+      <div class="col-md-12">โปรโมชั่น</div>
+    </div>
+    <div class="row pt-3 pb-3">
+      <div class="col-md-12">ค้นหาที่ตั้งร้าน</div>
+    </div>
+  </div>
+</div>

@@ -17,5 +17,9 @@ export class MainComponent implements OnInit {
   receivedToggle(event) {
     this.showSubMenu = event
   }
+  
+  showSlide(e) {
+    let i;
+  }
 
 }
